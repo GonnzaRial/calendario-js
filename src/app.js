@@ -57,9 +57,9 @@ const createCalendar = ({ locale, year }) => {
 
 createCalendar({ year: 2021, locale: 'es' })
 
-const date2 = new Date()
-const opt = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
-const diaAct= (new Intl.DateTimeFormat('es', opt).format(date2))
-const ele = document.querySelector(".hoy")
-const hoy = `<h4 class='act'>Hoy es ${diaAct}</h4>`
-ele.innerHTML = hoy
+//const date2 = new Date()
+//const opt = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
+//const diaAct= (new Intl.DateTimeFormat('es', opt).format(date2))
+//const ele = document.querySelector(".hoy")
+//const hoy = `<h4 class='act'>Hoy es ${diaAct}</h4>`
+//ele.innerHTML = hoy
